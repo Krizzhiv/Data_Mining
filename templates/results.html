@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraping Results</title>
+</head>
+<body>
+    <h1>Scraping Results for: {{ data.url }}</h1>
+    <h2>Title: {{ data.title }}</h2>
+    <h3>Content Snippet:</h3>
+    <pre>{{ data.content_snippet }}</pre>
+    <br>
+    <a href="/">Scrape another URL</a>
+</body>
+</html>
